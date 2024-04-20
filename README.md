@@ -11,10 +11,10 @@ The CSS file contains styles for various elements such as the game container, sc
 
 ## JavaScript Functionality
 The JavaScript file handles the game logic. This includes:
-- Movement of eggs: The eggs move down the screen at a speed that increases as the player's score increases.
-- Collision detection: The game checks if an egg has hit the floor or the nest. If an egg hits the floor, the player loses a life. If an egg hits the nest, the player's score increases.
-- Score updates: The player's score is displayed and updated in real-time as they catch eggs in the nest.
-- Game restarts: The player can restart the game by clicking the restart button that appears when the game ends.
+- Movement of eggs: The eggs move down the screen at a speed that increases as the player's score increases
+- bump checking: The game checks if an egg has hit the floor or the nest. If an egg hits the floor, the player loses a life. If an egg hits the nest, the player's score increases.
+- skore updates: The player's score is displayed and updated in real-time as they catch eggs in the nest.
+- restarts: The player can restart the game by clicking the restart button that appears when the game ends
 
 ## How to Play
  useing mouse move the nest left and right to catch the falling eggs. Each egg caught will increase your score. Be careful not to let the eggs hit the floor, or you will lose a life. The game ends when you run out of life. Good luck!
