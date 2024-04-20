@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Egg Game</title>
+    <link rel="stylesheet" href="design.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <div id="score_help">
+        Score: <span id="score">0</span> | Life: <span id="life"></span>
+      </div>
+
+      <div id="branch"></div>
+
+      <div id="chiken1" class="chiken"></div>
+      <div id="chiken2" class="chiken"></div>
+      <div id="chiken3" class="chiken"></div>
+
+      <div id="egg1" class="egg" data-bullseye="1"></div>
+      <div id="egg2" class="egg" data-bullseye="2"></div>
+      <div id="egg3" class="egg" data-bullseye="3"></div>
+
+      <div id="bullseye1" class="bullseye"></div>
+      <div id="bullseye2" class="bullseye"></div>
+      <div id="bullseye3" class="bullseye"></div>
+
+      <div id="nest">
+        <span id="score_1"></span>
+      </div>
+
+      <div id="floor"></div>
+
+      <button id="restart">restart</button>
+    </div>
+
+    <script src="code.js"></script>
+  </body>
+</html>
